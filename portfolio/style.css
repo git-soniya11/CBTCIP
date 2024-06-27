@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:whitesmoke;
+}
+.left-container , right-container{
+    height: 100vh;
+}
+.left-container{
+
+    background: black;
+    width: 70%;
+    padding-left: 3rem;
+}
+.right-container{
+    background:linear-gradient(-45deg,#395B64,black 70%);
+    width: 30%;
+
+}
+
+.design .circle{
+aspect-ratio: 1;
+position: absolute;
+border-radius: 50%;
+top: 50%;
+left: 70%;
+transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background: linear-gradient(90deg ,transparent 50% , black 50%);
+    width: 38rem;
+}
+.circle:nth-child(2){
+    background: beige;
+    width:30rem;
+    background-image: url(https://images.unsplash.com/photo-1602233158242-3ba0ac4d2167?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybHxlbnwwfHwwfHx8MA%3D%3D);
+    border: .1rem solid white;
+    box-shadow: 
+    0 0 1rem #fff,
+    inset 0 0 1rem #fff,
+    0 0 2rem #395B64,
+    inset 0 0 2rem #395B64,
+    0 0 4rem #395B64,
+    inset 0 0 4rem #395B64;
+
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 25%;
+    position: fixed;
+}
+.detail h3{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.detail h1{
+    font-size: 50px;
+    color: #395B64;
+    margin-bottom: 20px;
+}
+span{
+    color: #395B64;
+}
+.detail p{
+    color: whitesmoke;
+    line-height: 22px;
+}
+.detail a{
+    background-color: whitesmoke;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-olive-green-background_23-2149724861.jpg?t=st=1719146325~exp=1719149925~hmac=d0d49b9f3ca659149c15902a9295eb2836278d3b248824eee0945014ba3e3fbf&w=1380);
+    background-size: cover;
+        background-position: center;
+}
+
+.todo-container {
+    border: 1px solid #333;
+    width: 420px;
+    background:  rgba(0,0,0,0.75);
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E7F0DC;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background:  #729762;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .delete-btn, li .complete-btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li .delete-btn {
+    background:#658147;
+    color: #fff;
+}
+
+li .delete-btn:hover {
+    background:#658147;
+}
+
+li .complete-btn {
+    background:#5cb85c ;
+    color: #fff;
+}
+
+li .complete-btn:hover {
+    background:  #5cb85c;
+}
+
